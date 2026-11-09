@@ -39,7 +39,7 @@ La seguridad está centralizada en "SecurityConfig.java" y utiliza:
 ### Endpoints principales
 
 - POST: /api/usuarios/registro (Público) 
-- POST: /api/login (Público)   
+- POST: /api/auth/login (Público)   
 - GET: /api/mascotas/** (Autenticado)   
 - GET: /api/expedientes/** (VETERINARIO / ADMIN) 
 - *: /api/usuarios/** (ADMIN)            
